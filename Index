@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Loading...</title>
+<style>
+body {
+  margin: 0;
+  background: black;
+}
+</style>
+</head>
+
+<body>
+
+<script>
+// Page open hote hi black screen
+document.body.innerHTML = "";
+
+// 15 sec baad reveal
+setTimeout(() => {
+  document.body.innerHTML = "<h1 style='color:white; text-align:center; margin-top:40%;'>😂 Gotcha!</h1><p style='color:white; text-align:center;'>Phone bilkul safe hai 😎</p>";
+}, 15000);
+</script>
+
+</body>
+</html>
